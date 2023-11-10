@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <img class="trustpilot" src="images/trustpilot.png" alt="Trustpilot">
+            <img class="trustpilot-mobile" src="images/trustpilot-mobile.png" alt="Trustpilot">
+        </header>
+
+        <div class="content-left">
+            <h1>Intego Privacy Protection VPN</h1>
+            <h2>The last piece for your online privacy</h2>
+
+            <div class="benefits">
+                <ul>
+                    <li>
+                        <img src="images/check.png" alt="">
+                        <span>Total Privacy and Anonymity for your data</span>
+                    </li>
+                    <li>
+                        <img src="images/check.png" alt="">
+                        <span>Unblock Streaming</span>
+                    </li>
+                    <li>
+                        <img src="images/check.png" alt="">
+                        <span>Stay Protected on Public Wi-Fi Networks</span>
+                    </li>
+                    <li>
+                        <img src="images/check.png" alt="">
+                        <span>Unlimited Bandwidth & Fast Download Speeds</span>
+                    </li>
+                    <li>
+                        <img src="images/check.png" alt="">
+                        <span>Secure VPN Protocols</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="price-deal">
+                <p class="reg-price">Regular <span>$39.99</span></p>
+                <p class="now-price">Now only <span class="now-only">$19.99</span><span class="sm-txt"> / year</span></p>
+                <p class="support-line">Supports up to 10 devices</p>
+            </div>
+
+            <div class="box">
+                <div class="line">
+                    <div class="addSupport">
+                        <label class="checkbox">Add support for another 10 devices 
+                            <input type="checkbox" id="checkSupp" onclick="checkboxPrice(this)">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="currency">
+                        Currency : <select id="currency-list"></select>                          
+                    </div>
+                </div>
+
+                <div class="line2">
+                    <button class="CTA" onclick="clickBtn()">
+                        <img src="images/icon-btn.png" alt="icon">
+                        Add Intego Privacy Protection
+                    </button>
+                    <div class="compatible">
+                        <p>Compatible with</p>
+                        <div class="icons">
+                            <img src="images/apple-logo-white.png" alt="">
+                            <img src="images/windows icon_gray.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue">
+                    <a href="#">No thanks, continue without upgrading</a>
+                </div>
+
+                <div class="error">
+                    <p>
+                        <img src="images/error.png">
+                        Upgrade failed, finalizing order…
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <img src="images/Illustration.png" alt="">
+        </div>
+
+        <footer>
+            <p>By clicking you agree to our <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>. 
+            Introductory prices are for initial term only. 
+            Recurring services will be automatically renew at the regular rate unless changed or cancelled
+            </p>
+        </footer>
+
+    </div>
+
+<script src="main.js"></script>    
+</body>
+</html>
